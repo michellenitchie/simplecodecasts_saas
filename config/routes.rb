@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
-
+  
+  #Gives us URLs for contact stuff
+  resources :contacts
+  
+  #Dynamic link for the about page
   get '/about' => 'pages#about'
 
   #Keep the root at the bottom
   root 'pages#home'
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
