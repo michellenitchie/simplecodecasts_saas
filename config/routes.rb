@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   
   devise_for :users, controllers: { registrations: 'users/registrations' }
+  
+  resources :users do
+    resource :profile
+  end
+  
   #Gives us URLs for contact stuff
   resources :contacts
   
