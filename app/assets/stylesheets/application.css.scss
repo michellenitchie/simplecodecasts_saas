@@ -22,6 +22,8 @@
   border-color: #faebcc;
 }
 
+/*Users Show Page Styles*/
+
 .job_title_icon {
   display: inline-block;
   width: 30px;
@@ -31,6 +33,11 @@
   background-color: #337ab7;
   color: white;
   text-align: center;
+}
+
+.user-show-avatar {
+  height: 128px;
+  width: 128px;
 }
 
 .well.profile-block {
@@ -50,3 +57,12 @@
   border-color: #46b8da;
 }
 
+/* Users Index Page Styles */
+
+.user-index-avatar {
+  border-radius: 50%;
+}
+
+.well.white-bg {
+  background-color: white;
+}
